@@ -1,0 +1,31 @@
+* {
+	font-family: Calibri, sans-serif;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#procontainer {
+	display: grid;	
+	grid-template-columns: repeat(3, 1fr);
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+nav a {
+	padding: .5em 2em;
+}
+
+
