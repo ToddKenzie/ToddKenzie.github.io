@@ -3,7 +3,7 @@
 }
 
 html {
-	width: 70%;
+	width: 80%;
 	margin: auto;
 }
 
@@ -17,18 +17,22 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(118, 6, 247, 0.75), rgba(0, 0, 0, 0));
 }
 
-#aboutMe {
+#aboutcontainer {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-#portrait {
-	width: 70%;
-	justify-self: end;
+	grid-template-columns: 25% 45% 30%;
 }
 
 #contact {
 	list-style: none;
+	padding-left: 0;
+}
+
+.about-column {
+	padding: 5px;
+}
+
+.about-column1 {
+	background-color: hsla(268, 100%, 50%, .1);
 }
 
 .fas, .fab {
@@ -43,6 +47,11 @@ hr {
 .contact-link:hover {
 	color: #7606f7;
 	text-decoration: underline;
+}
+
+#portrait {
+	width: 100%;
+	justify-self: end;
 }
 
 #procontainer {
@@ -61,8 +70,18 @@ article h3 {
 	text-align: center;
 }
 
-article a {
-	
+.project-link {
+	text-align: center;
+}
+
+.project-link a {
+	text-decoration: none;
+	color: #666;
+}
+
+.project-link a:hover {
+	color: #7606f7;
+	text-decoration: underline;
 }
 
 .project-image {
