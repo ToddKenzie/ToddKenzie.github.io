@@ -57,6 +57,18 @@ hr {
 
 }
 
+article h3 {
+	text-align: center;
+}
+
+article a {
+	
+}
+
+.project-image {
+	width: 100%;
+}
+
 nav {
 	position: fixed;
 	top: 0;
