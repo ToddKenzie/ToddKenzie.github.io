@@ -11,6 +11,11 @@ header {
 	text-align: center;
 }
 
+h1 {
+
+	text-shadow: 2px 3px 8px rgba(168, 168, 168, 1);
+}
+
 hr {
     border: 0;
     height: 1px;
@@ -68,6 +73,7 @@ hr {
 
 article h3 {
 	text-align: center;
+	text-shadow: 2px 3px 8px rgba(168, 168, 168, 1);
 }
 
 .project-link {
@@ -84,8 +90,17 @@ article h3 {
 	text-decoration: underline;
 }
 
+.crop-height {
+	max-height: 200px;
+	overflow: hidden;
+	padding: 0 5px;
+}
+
 .project-image {
+	display: block;
 	width: 100%;
+	max-width: 100%;
+	height: auto !important;
 }
 
 nav {
