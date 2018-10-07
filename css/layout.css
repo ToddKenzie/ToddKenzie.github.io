@@ -16,8 +16,13 @@
 	}
 
 	.about-column1 {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		
+	}
+
+	#about-pic-small #portrait {
+		width: 210px;
+		margin-top: 20px;
+		margin-right: 20px;
 	}
 
 	#contact {
@@ -56,8 +61,15 @@
 		display: none;
 	}
 
-	.about-column-3 {
+	.about-pic-large {
+		display: none;
 		margin: auto;
+	}
+
+	#portrait {
+		float: right;
+		clip-path: circle(50% at 50% 44%);
+		shape-outside: circle(50%);
 	}
 
 	#procontainer {
@@ -144,7 +156,7 @@
 
 	#aboutcontainer {
 		display: grid;
-		grid-template-columns: 25% 50% 25%;
+		grid-template-columns: 25% 75%;
 	}
 
 	.about-column1 {
@@ -158,6 +170,10 @@
  		 width: 36px;
  	}
 
+ 	#about-pic-small {
+		display: none;
+	}
+
  	#hide-on-mid {
 		display: inline;
 	}
@@ -166,8 +182,14 @@
  		padding: 0 10px;
  	}
 
+ 	.about-pic-large {
+		display: inline;
+	}
+
+
 	#portrait {
 		width: 170px;
+		margin-top: 3em;
 	}
 
 	#procontainer {	
@@ -203,7 +225,6 @@ html {
 
 	#aboutcontainer {
 		display: grid;
-		grid-template-columns: 25% 45% 30%;
 	}
 
 	.about-column1 {
@@ -238,7 +259,7 @@ html {
 
 	#portrait {
 		width: 240px;
-		justify-items: end;
+		margin-top: 2em;
 	}
 
 	#procontainer {	
