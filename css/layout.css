@@ -128,6 +128,13 @@
 		padding: 1em;
 	}
 
+	.about-column1,
+	#project-1,
+	#project-2,
+	#project-3 {
+		background-image: linear-gradient(to right, rgba(119, 0, 255, .1), rgba(119, 0, 255, .4));
+	}
+
 
 @media only screen and (min-width: 768px) {
 	html {
@@ -142,6 +149,7 @@
 
 	.about-column1 {
 		display: block;
+		background-image: linear-gradient(to right, rgba(119, 0, 255, .1), rgba(219, 188, 255, 1));
 	}
 
 	.contact-image .fas,
@@ -173,6 +181,17 @@
 		margin-top: -15%;
 	}
 
+	#project-1,
+	#project-3 {
+		background-image: linear-gradient(to right, rgba(119, 0, 255, .1), rgba(119, 0, 255, .25));
+	}
+
+	#project-2 {
+		background-image: linear-gradient(to right, rgba(119, 0, 255, .25), rgba(119, 0, 255, .4));
+	}
+
+
+
 
 }
 
@@ -189,6 +208,7 @@ html {
 
 	.about-column1 {
 		display: block;
+		background-image: linear-gradient(to right, rgba(119, 0, 255, .1), rgba(220, 189, 255, 1));
 	}
 
 	#contact .contact-line {
@@ -224,6 +244,18 @@ html {
 	#procontainer {	
 		grid-template-rows: 1fr;
 		grid-template-columns: repeat(3, 1fr);
+	}
+
+	#project-1 {
+		background-image: linear-gradient(to right, rgba(119, 0, 255, .1), rgba(119, 0, 255, .2));
+	}
+
+	#project-2 {
+		background-image: linear-gradient(to right, rgba(119, 0, 255, .2), rgba(119, 0, 255, .3));
+	}
+
+	#project-3 {
+		background-image: linear-gradient(to right, rgba(119, 0, 255, .3), rgba(119, 0, 255, .4));
 	}
 
 }

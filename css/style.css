@@ -28,6 +28,7 @@ hr {
 
 .fas, .fab {
 	color: #7606f7;
+	transition: all 0.5s ease;
 }
 
 .contact-image .fas:hover,
@@ -38,12 +39,13 @@ hr {
 .contact-link {
 	text-decoration: none;
 	color: #666;
+	transition: all 0.5s ease-out;
 }
 
 
 .contact-link:hover {
-	color: #7606f7;
-	text-decoration: underline;
+	color: #fff;
+	background-color: #7606f7;
 }
 
 #procontainer article {
@@ -63,11 +65,12 @@ article h3 {
 .project-link a {
 	text-decoration: none;
 	color: #666;
+	transition: all 0.5s ease-out;
 }
 
 .project-link a:hover {
-	color: #7606f7;
-	text-decoration: underline;
+	color: #fff;
+	background-color: #7606f7;
 }
 
 nav {
@@ -78,6 +81,10 @@ nav p,
 nav a {
 	color: #fff;
 	text-decoration: none;
+}
+
+nav a {
+	transition: background-color 0.5s ease;
 }
 
 nav a:hover {
