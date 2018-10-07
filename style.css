@@ -29,10 +29,16 @@ hr {
 	color: #7606f7;
 }
 
+.contact-image .fas:hover,
+.contact-image .fab:hover {
+	color: #3e0184;
+}
+
 .contact-link {
 	text-decoration: none;
 	color: #666;
 }
+
 
 .contact-link:hover {
 	color: #7606f7;
