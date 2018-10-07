@@ -1,0 +1,216 @@
+* {
+	box-sizing: border-box;
+}
+
+	html {
+		width: 80%;
+		margin: auto;
+	}
+
+	header {
+		margin-top: 3em;
+	}
+
+	#aboutcontainer {
+		display: grid;
+	}
+
+	#contact {
+		padding-left: 0;
+	}
+
+	.about-column {
+		padding: 5px;
+	}
+
+	#portrait {
+		width: 100%;
+		justify-self: end;
+	}
+
+	#procontainer {
+		display: grid;	
+		grid-template-rows: repeat(3, 1fr);
+		justify-items: center;
+		grid-row-gap: 1em;
+	}
+
+	.crop-height {
+		max-height: 200px;
+		overflow: hidden;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.project-image {
+		display: block;
+		width: 100%;
+		max-width: 330px;
+		height: auto !important;
+	}
+
+	.project-image-3 {
+		margin-left: -140%;
+		margin-top: -15%;
+	}
+
+	nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+	}
+
+	nav a {
+		padding: .5em 2em;
+}
+
+
+@media only screen and (min-width: 768px) {
+	html {
+		width: 80%;
+		margin: auto;
+	}
+
+	header {
+		margin-top: 3em;
+	}
+
+	#aboutcontainer {
+		display: grid;
+		grid-template-columns: 25% 50% 25%;
+	}
+
+	#contact {
+		padding-left: 0;
+	}
+
+	.about-column {
+		padding: 5px;
+	}
+
+	a {
+		word-wrap: break-word;
+	}
+
+	#portrait {
+		width: 100%;
+		justify-self: end;
+	}
+
+	#procontainer {
+		display: grid;	
+		grid-template-columns: repeat(2, 1fr);
+		justify-items: center;
+		grid-column-gap: 1em;
+	}
+
+	.crop-height {
+		max-height: 200px;
+		overflow: hidden;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.project-image {
+		display: block;
+		width: 100%;
+		max-width: 330px;
+		height: auto !important;
+	}
+
+	.project-image-3 {
+		margin-left: -140%;
+		margin-top: -15%;
+	}
+
+	nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+	}
+
+	nav a {
+		padding: .5em 2em;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+html {
+		width: 80%;
+		margin: auto;
+	}
+
+	header {
+		margin-top: 3em;
+	}
+
+	#aboutcontainer {
+		display: grid;
+		grid-template-columns: 25% 45% 30%;
+	}
+
+	#contact {
+		padding-left: 0;
+	}
+
+	.about-column {
+		padding: 5px;
+	}
+
+	#portrait {
+		width: 100%;
+		justify-self: end;
+	}
+
+	#procontainer {
+		display: grid;	
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: center;
+		grid-column-gap: 1em;
+	}
+
+	.crop-height {
+		max-height: 200px;
+		overflow: hidden;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.project-image {
+		display: block;
+		width: 100%;
+		max-width: 330px;
+		height: auto !important;
+	}
+
+	.project-image-3 {
+		margin-left: -140%;
+		margin-top: -15%;
+	}
+
+	nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+
+		display: flex;
+		flex-flow: row;
+		justify-content: center;
+	}
+
+	nav a {
+		padding: .5em 2em;
+	}
+	
+}

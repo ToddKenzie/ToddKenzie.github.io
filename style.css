@@ -2,17 +2,11 @@
 	font-family: Calibri, sans-serif;
 }
 
-html {
-	width: 80%;
-	margin: auto;
-}
-
 header {
 	text-align: center;
 }
 
 h1 {
-
 	text-shadow: 2px 3px 8px rgba(168, 168, 168, 1);
 }
 
@@ -22,22 +16,13 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(118, 6, 247, 0.75), rgba(0, 0, 0, 0));
 }
 
-#aboutcontainer {
-	display: grid;
-	grid-template-columns: 25% 45% 30%;
-}
-
 #contact {
 	list-style: none;
-	padding-left: 0;
-}
-
-.about-column {
-	padding: 5px;
 }
 
 .about-column1 {
 	background-color: hsla(268, 100%, 50%, .1);
+	border: 1px solid #ccc;
 }
 
 .fas, .fab {
@@ -54,21 +39,9 @@ hr {
 	text-decoration: underline;
 }
 
-#portrait {
-	width: 100%;
-	justify-self: end;
-}
-
-#procontainer {
-	display: grid;	
-	grid-template-columns: repeat(3, 1fr);
-	justify-items: center;
-	grid-column-gap: 1em;
-}
-
 #procontainer article {
 	background-color: hsla(268, 100%, 50%, .1);
-
+	border: 1px solid #ccc;
 }
 
 article h3 {
@@ -90,35 +63,11 @@ article h3 {
 	text-decoration: underline;
 }
 
-.crop-height {
-	max-height: 200px;
-	overflow: hidden;
-	padding: 0 5px;
-}
-
-.project-image {
-	display: block;
-	width: 100%;
-	max-width: 100%;
-	height: auto !important;
-}
-
 nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-
 	background-color: #7606f7;
-
-
-	display: flex;
-	flex-flow: row;
-	justify-content: center;
 }
 
 nav a {
-	padding: .5em 2em;
 	color: #fff;
 	text-decoration: none;
 }
