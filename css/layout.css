@@ -68,6 +68,8 @@
 
 	#portrait {
 		float: right;
+		-webkit-clip-path: circle(50% at 50% 44%);
+		-webkit-shape-outside: circle(50%);
 		clip-path: circle(50% at 50% 44%);
 		shape-outside: circle(50%);
 	}
