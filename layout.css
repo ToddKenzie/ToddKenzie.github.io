@@ -15,8 +15,13 @@
 		display: grid;
 	}
 
+	.about-column1 {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
 	#contact {
-		padding-left: 0;
+		padding-left: 5px;
 	}
 
 	#contact .contact-line {
@@ -27,14 +32,20 @@
 		display: none;
 	}
 
+	.fas, .fab {
+ 		margin: 2px 2px;
+	}
+
+	.fa-phone-square {
+		padding-left: 5px;
+	}
+
 	.contact-image .fas,
 	.contact-image .fab {
-		 padding: 5px;
- 		 font-size: 40px;
- 		 width: 50px;
+		 font-size: 40px;
+ 		 width: 44px;
  		 text-align: center;
  		 text-decoration: none;
- 		 margin: 5px 2px;
 	}
 
 	.about-column {
@@ -43,9 +54,6 @@
 
 	.about-column-3 {
 		margin: auto;
-	}
-
-	#portrait {
 	}
 
 	#procontainer {
@@ -78,6 +86,10 @@
 		margin-top: -15%;
 	}
 
+	.project-description {
+		min-height: 5em;
+	}
+
 	nav {
 		position: fixed;
 		top: 0;
@@ -91,7 +103,7 @@
 
 	nav a {
 		padding: .5em 2em;
-}
+	}
 
 
 @media only screen and (min-width: 768px) {
@@ -100,47 +112,29 @@
 		margin: auto;
 	}
 
-	header {
-		margin-top: 3em;
-	}
-
 	#aboutcontainer {
 		display: grid;
 		grid-template-columns: 25% 50% 25%;
 	}
 
-	#contact {
-		padding-left: 0;
+	.about-column1 {
+		display: block;
 	}
 
-	.about-column {
-		padding: 5px;
-	}
+	.contact-image .fas,
+	.contact-image .fab {
+ 		 font-size: 30px;
+ 		 width: 36px;
+ 	}
 
 	#portrait {
-		width: 100%;
-		justify-self: end;
+		width: 170px;
 	}
 
-	#procontainer {
-		display: grid;	
+	#procontainer {	
+		grid-template-rows: repeat(2, 1fr);
 		grid-template-columns: repeat(2, 1fr);
-		justify-items: center;
 		grid-column-gap: 1em;
-	}
-
-	.crop-height {
-		max-height: 200px;
-		overflow: hidden;
-		border-top: 1px solid #ccc;
-		border-bottom: 1px solid #ccc;
-	}
-
-	.project-image {
-		display: block;
-		width: 100%;
-		max-width: 330px;
-		height: auto !important;
 	}
 
 	.project-image-3 {
@@ -148,20 +142,7 @@
 		margin-top: -15%;
 	}
 
-	nav {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
 
-		display: flex;
-		flex-flow: row;
-		justify-content: center;
-	}
-
-	nav a {
-		padding: .5em 2em;
-	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -170,21 +151,22 @@ html {
 		margin: auto;
 	}
 
-	header {
-		margin-top: 3em;
-	}
-
 	#aboutcontainer {
 		display: grid;
 		grid-template-columns: 25% 45% 30%;
 	}
 
-	#contact {
-		padding-left: 0;
+	.about-column1 {
+		display: block;
 	}
 
 	#contact .contact-line {
 		display: inline-block;
+	}
+
+	.fas, .fab {
+		padding: 0;
+ 		margin: auto;
 	}
 
 	.contact-image .fas,
@@ -192,64 +174,21 @@ html {
 		display: inline-block;
 		font-size: 16px;
 		width: 14px;
-		padding: 0;
- 		text-decoration: none;
- 		margin: auto;
-	}
+ 	}
 
 	.contact-link {
 		display: inline-block;
 		word-wrap: break-word;
 	}
 
-	.about-column {
-		padding: 5px;
-	}
-
 	#portrait {
-		width: 100%;
-		justify-self: end;
+		width: 240px;
+		justify-items: end;
 	}
 
-	#procontainer {
-		display: grid;	
+	#procontainer {	
+		grid-template-rows: 1fr;
 		grid-template-columns: repeat(3, 1fr);
-		justify-items: center;
-		grid-column-gap: 1em;
 	}
 
-	.crop-height {
-		max-height: 200px;
-		overflow: hidden;
-		border-top: 1px solid #ccc;
-		border-bottom: 1px solid #ccc;
-	}
-
-	.project-image {
-		display: block;
-		width: 100%;
-		max-width: 330px;
-		height: auto !important;
-	}
-
-	.project-image-3 {
-		margin-left: -140%;
-		margin-top: -15%;
-	}
-
-	nav {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-
-		display: flex;
-		flex-flow: row;
-		justify-content: center;
-	}
-
-	nav a {
-		padding: .5em 2em;
-	}
-	
 }
