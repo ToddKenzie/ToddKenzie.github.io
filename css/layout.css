@@ -91,6 +91,7 @@
 	}
 
 	.project-description {
+		padding: 5px;
 		min-height: 5em;
 	}
 
