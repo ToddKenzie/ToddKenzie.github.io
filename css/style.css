@@ -2,6 +2,10 @@
 	font-family: Calibri, sans-serif;
 }
 
+html {
+	background-color: #edf7e3;
+}
+
 header {
 	text-align: center;
 }
@@ -34,6 +38,12 @@ hr {
 .contact-image .fas:hover,
 .contact-image .fab:hover {
 	color: #3e0184;
+}
+
+.contact-image:hover + .contact-link,
+.contact-image:hover + .contact-link {
+	color: #fff;
+	background-color: #7606f7;
 }
 
 .contact-link {

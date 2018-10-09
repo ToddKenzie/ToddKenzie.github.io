@@ -195,8 +195,7 @@
  	.about-pic-large {
 		display: inline;
 	}
-
-
+	
 	#portrait {
 		width: 170px;
 		margin-top: 3em;
@@ -210,7 +209,6 @@
 
 	.project-image-3 {
 		margin-left: -240%;
-		margin-top: -15%;
 	}
 
 	#project-1,
@@ -289,7 +287,6 @@ html {
 
 	.project-image-3 {
 		margin-left: -247%;
-		margin-top: -15%;
 	}
 
 	#project-1 {
