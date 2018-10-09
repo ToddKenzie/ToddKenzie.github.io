@@ -195,7 +195,7 @@
  	.about-pic-large {
 		display: inline;
 	}
-	
+
 	#portrait {
 		width: 170px;
 		margin-top: 3em;
@@ -251,7 +251,7 @@ html {
 	}
 
 	#contact .contact-line {
-		display: inline-block;
+		display: block;
 	}
 
 	.fas, .fab {
