@@ -83,6 +83,20 @@ article h3 {
 	background-color: #7606f7;
 }
 
+.show-project {
+	border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+	text-shadow: 2px 3px 8px rgb(19, 19, 19),
+				-1px -1px 8px rgb(19, 19, 19);
+    background-image: linear-gradient(to bottom, rgba(116, 253, 13, 0.3), rgba(17, 253, 13, .8));
+}
+
+.show-project:hover {
+	background-image: linear-gradient(to top, rgba(116, 253, 13, 0.3), rgba(17, 253, 13, .8));
+}
+
 nav {
 	background-color: #7606f7;
 }
