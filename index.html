@@ -45,8 +45,8 @@
 							<img src="images/portrait-small.jpg" id="portrait">
 					</div>
 					<div id="about-column-1a">
-						<h3>Contact</h3>
-						<button id="modal-button">More Info</button>
+						<h3>Contact  <button id="modal-button">More Info</button></h3>
+						
 						<ul id="contact">
 							<li><i class="fas fa-phone-square"></i> 614-804-6536</li>
 							<li class="contact-line"><a href="mailto:mopeybear@gmail.com?Subject=Hello" class="contact-image"><i class="fas fa-envelope-square"></i></a> <a href="mailto:mopeybear@gmail.com?Subject=Hello" class="contact-link"> mopeybear@gmail.com</a></li>
@@ -165,9 +165,11 @@
 	<nav>
 		<p>Portfolio</p>
 		<div class="ham" id="nav-links">
-			<a href="#aboutMe">About Me</a>
-			<a href="#myProjects">Projects</a>
-		
+			<a id="burger" href="javascript:void(0);" class="icon" onclick="hamburger()">
+				<i class="fa fa-bars"></i>
+			</a>
+			<a id="ham-link-top" class="ham-link" href="#aboutMe">About Me</a>
+			<a id="ham-link-bottom" class="ham-link" href="#myProjects">Projects</a>
 			
 		</div>
 	</nav>

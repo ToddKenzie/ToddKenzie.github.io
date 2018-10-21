@@ -17,6 +17,14 @@ const changeBanner = () => {
 }
 
 //add hamburger button
+const hamburger = () => {
+    var x = document.getElementById("nav-links");
+    if (x.className === "ham") {
+        x.className += " responsive";
+    } else {
+        x.className = "ham";
+    }
+}
 
 //add button to show/hide material for portfolio projects
 var projectButtons = document.querySelectorAll('.show-project');
