@@ -26,6 +26,20 @@ hr {
 	list-style: none;
 }
 
+#modal-button {
+	border: none;
+	padding: 5px 10px;
+	border-radius: 10px;
+	color: #ffffff;
+	text-shadow: 2px 3px 8px rgb(19, 19, 19),
+				-1px -1px 8px rgb(19, 19, 19);
+	background-image: linear-gradient(to bottom, rgba(13, 65, 253, 0.3), rgba(13, 131, 253, .8));	
+}
+
+#modal-button:hover {
+	background-image: linear-gradient(to top, rgba(13, 65, 253, 0.3), rgba(13, 131, 253, .8));		
+}
+
 .about-column1 {
 	background-color: hsla(268, 100%, 50%, .1);
 	border: 1px solid #ccc;
@@ -86,16 +100,17 @@ article h3 {
 
 .show-project {
 	border: none;
-    padding: 10px 20px;
+	padding: 10px 20px;
+	border-radius: 10px;
     font-size: 1em;
     color: #ffffff;
 	text-shadow: 2px 3px 8px rgb(19, 19, 19),
 				-1px -1px 8px rgb(19, 19, 19);
-    background-image: linear-gradient(to bottom, rgba(116, 253, 13, 0.3), rgba(17, 253, 13, .8));
+	background-image: linear-gradient(to bottom, rgba(13, 65, 253, 0.3), rgba(13, 131, 253, .8));
 }
 
 .show-project:hover {
-	background-image: linear-gradient(to top, rgba(116, 253, 13, 0.3), rgba(17, 253, 13, .8));
+	background-image: linear-gradient(to top, rgba(13, 65, 253, 0.3), rgba(13, 131, 253, .8));
 }
 
 nav {
