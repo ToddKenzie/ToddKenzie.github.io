@@ -15,3 +15,14 @@ for (let i = 0; i < projectButtons.length; i++) {
 }
 
 //create modal box to pop up with bio for button or link (prefer for pics for projects as a Zoom function)
+var modal = document.getElementById('modal-contact');
+var modButton = document.getElementById('modal-button');
+var modSpan = document.getElementsByClassName('modal-close')[0];
+
+modButton.onclick = () => modal.style.display = 'block';
+modSpan.onclick = () => modal.style.display = 'none';
+window.onclick = event => {
+    if(event.target == modal) {
+        modal.style.display = 'none';
+    }
+}
