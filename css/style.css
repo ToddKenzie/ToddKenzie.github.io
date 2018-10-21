@@ -98,6 +98,10 @@ article h3 {
 	background-color: #7606f7;
 }
 
+button:focus {
+	outline: none;
+}
+
 .show-project {
 	border: none;
 	padding: 10px 20px;
