@@ -21,23 +21,24 @@
 	}
 
 	.modal-content {
-		background-color: darkgray;
+		background-color: #d8c3d6;
 		margin: 15% auto;
-		padding: 20px;
+		padding: 5px 20px;
 		border: 1px solid white;
 		width: 75%;
 	}
 
 	.modal-close {
-		color: #aaa;
+		color: #111;
 		float: right;
 		font-size: 28px;
 		font-weight: bold;
+
 	}
 
 	.modal-close:hover,
 	.modal-close:focus {
-		color: #000;
+		color: #d00b0b;
 		text-decoration: none;
 	}
 
