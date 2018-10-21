@@ -101,6 +101,33 @@
 		shape-outside: circle(50%);
 	}
 
+	#cycler {
+		margin: 2em auto;
+	}
+
+	#cycler-frame {
+		overflow: hidden;
+	}
+
+	#cycler-images {
+		position: relative;
+		height: 180px;
+		max-width: 800px;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.cycler-image {
+		position: absolute;
+		transition: all 1s ease-in;
+		opacity: 0;
+	}
+
+	#cycler-images .top {
+		opacity: 1;
+		transition: all 1s ease-out;
+	}
+
 	#procontainer {
 		display: grid;	
 		grid-template-rows: repeat(3, 1fr);

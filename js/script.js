@@ -1,5 +1,20 @@
 //for reference: parameters of project
 //image carousel (rotate min 3 images automatically on page)
+var images;
+var maxImageIndex;
+var currentIndex;
+
+const setUp = () => {
+    images = document.querySelectorAll('#cycler-images img');
+    maxImageIndex = images.length;
+    currentIndex = 0;
+}
+
+const changeBanner = () => {
+    images[currentIndex].className = 'cycler-image';
+    currentIndex = (currentIndex >= maxImageIndex - 1) ? 0 : currentIndex + 1;
+    images[currentIndex].className += ' top';
+}
 
 //add hamburger button
 
@@ -25,4 +40,10 @@ window.onclick = event => {
     if(event.target == modal) {
         modal.style.display = 'none';
     }
+}
+
+window.onload = () => {
+    setUp();
+    images[currentIndex].className += ' top';
+    setInterval(changeBanner, 8000);
 }
