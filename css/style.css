@@ -118,7 +118,7 @@ button:focus {
 }
 
 nav {
-	background-color: #7606f7;
+	background-image: url("../images/navbar.png");
 }
 
 nav p,
@@ -132,7 +132,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #3e0184;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 footer {

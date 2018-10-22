@@ -19,12 +19,12 @@
 		top: 0;
 		background-color: rgba(0,0,0,0.4);
 	}
-
+	
 	.modal-content {
-		background-color: #d8c3d6;
+		background-image: linear-gradient(to right, rgba(214, 199, 232, 1), rgba(177, 120, 241, 1));
 		margin: 15% auto;
 		padding: 5px 20px;
-		border: 1px solid white;
+		border: 1px solid #000;
 		width: 75%;
 	}
 
@@ -241,7 +241,6 @@
 		float: right;
 		display: block;
 		margin-right: 1em;
-		border: solid 1px #4b00a1;
 	}
 	
 	#ham-link-top {
