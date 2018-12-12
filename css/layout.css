@@ -98,6 +98,12 @@
 		margin-top: -15%;
 	}
 
+	.project-button {
+		display: flex;
+		justify-content: center;
+		margin: 1em auto;
+	}
+
 	.project-description {
 		padding: 5px;
 		min-height: 5em;
