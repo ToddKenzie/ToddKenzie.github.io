@@ -13,10 +13,6 @@
 		display: grid;
 	}
 
-	.about-column1 {
-		
-	}
-
 	#about-pic-small #portrait {
 		width: 210px;
 		margin-top: 20px;
@@ -97,7 +93,7 @@
 		height: auto !important;
 	}
 
-	.project-image-3 {
+	.project-image-2 {
 		margin-left: -200%;
 		margin-top: -15%;
 	}
@@ -207,7 +203,7 @@
 		grid-column-gap: 1em;
 	}
 
-	.project-image-3 {
+	.project-image-2 {
 		margin-left: -240%;
 	}
 
@@ -285,7 +281,7 @@ html {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
-	.project-image-3 {
+	.project-image-2 {
 		margin-left: -247%;
 	}
 
