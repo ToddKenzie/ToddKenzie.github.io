@@ -98,6 +98,10 @@ article h3 {
 	background-image: linear-gradient(to top, rgba(13, 65, 253, 0.3), rgba(13, 131, 253, .8));
 }
 
+.project-info {
+	display: none;
+}
+
 
 nav {
 	background-image: url("../images/navbar.png");
